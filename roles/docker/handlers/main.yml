@@ -1,0 +1,12 @@
+---
+# handlers file for docker
+
+- name: Update all packages to the latest version
+  apt:
+    name: "*"
+    state: latest
+  listen: "update all"
+
+- name: reset ssh connection to allow user changes to affect 'current login user'
+  meta: reset_connection
+  listen: "reset connection"

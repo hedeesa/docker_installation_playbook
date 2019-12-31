@@ -1,0 +1,6 @@
+---
+# vars file for sanction
+
+
+website: "https://download.docker.com/"
+dns: "nameserver 185.51.200.2"
