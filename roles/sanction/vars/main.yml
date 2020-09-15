@@ -2,5 +2,5 @@
 # vars file for sanction
 
 
-website: "https://registry-1.docker.io/"
+website: "http://golang.org/"
 dns: "nameserver 185.51.200.2"
