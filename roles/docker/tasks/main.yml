@@ -45,10 +45,10 @@
 - name: add user to docker group
   user:
     name: '{{ ansible_user }}'
-    groups: docker
+    groups: 
+      - docker
     append: yes   
-  notify: "reset connection"
-
+    
 - name: set proxy for docker
   block:
     - name: create system directory for docker
