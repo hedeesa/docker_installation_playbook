@@ -5,5 +5,4 @@
   apt:
     name: "*"
     state: latest
-    update_cache: yes
   listen: "update all"
